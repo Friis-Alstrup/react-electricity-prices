@@ -1,6 +1,5 @@
 import React from "react";
 import { Grid, LinearProgress, Typography } from "@mui/material";
-import { Stack } from "@mui/system";
 
 export default function PriceProgressBar({ clock, price }) {
   const clockFormat = new Date(clock).getHours();
