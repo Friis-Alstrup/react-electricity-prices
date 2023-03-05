@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <Box>
       <AppBar className="navbar" position="static">
-        <Container maxWidth="xl">
+        <Container maxWidth="lg">
           <Toolbar sx={{ padding: 0 }}>
             <Typography variant="h6" sx={{ flexGrow: 1 }}>
               El-priser
