@@ -1,5 +1,4 @@
 # Elpriser - React applikation
-
 Som en del af mit emne 'React' på mit 4. semester af min uddannelse (Datamatiker), har jeg lavet dette produkt.
 
 ### Siden viser eksempler på brug af:
@@ -8,8 +7,11 @@ Som en del af mit emne 'React' på mit 4. semester af min uddannelse (Datamatike
 
 Demo kan ses på: [elpriser.phillipf.dk](https://elpriser.phillipf.dk)
 
-## For at starte applikationen:
+## To do
+- Caching af data (Så den ikke kalder api ved state-changes).
+- Mulighed for at se kommende dags elpriser.
 
+## For at starte applikationen:
 Gå ind i projekt-mappen:
 ```bash
 cd react-electricity-prices
