@@ -11,13 +11,19 @@ Demo kan ses på: [elpriser.phillipf.dk](https://elpriser.phillipf.dk)
 ## For at starte applikationen:
 
 Gå ind i projekt-mappen:
-```cd react-electricity-prices```
+```bash
+cd react-electricity-prices
+```
 
 Installér node_modules:
-```npm install```
+```bash
+npm install
+```
 
 Start applikationen:
-```npm run dev```
+```bash
+npm run dev
+```
 
 ## Reference
 Data hentet fra: [elprisenligenu.dk](https://www.elprisenligenu.dk/elpris-api)
