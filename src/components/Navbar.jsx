@@ -1,23 +1,34 @@
-import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
-import { Container } from '@mui/system';
+import * as React from "react";
+import AppBar from "@mui/material/AppBar";
+import Box from "@mui/material/Box";
+import Toolbar from "@mui/material/Toolbar";
+import Typography from "@mui/material/Typography";
+import Button from "@mui/material/Button";
+import IconButton from "@mui/material/IconButton";
+import MenuIcon from "@mui/icons-material/Menu";
+import { Container } from "@mui/system";
+import { GitHub } from "@mui/icons-material";
+import { red } from '@mui/material/colors';
 
 export default function Navbar() {
   return (
     <Box>
       <AppBar className="navbar" position="static">
-        <Container maxWidth="lg">
-            <Toolbar sx={{ display: "flex", justifyContent: "center" }}>
-            <Typography variant="h6" component="div">
-                Hvad koster strømmen?
+        <Container maxWidth="xl">
+          <Toolbar sx={{ padding: 0 }}>
+            <Typography variant="h6" sx={{ flexGrow: 1 }}>
+              El-priser
             </Typography>
-            </Toolbar>
+            <Button
+              href="https://github.com/Friis-Alstrup/react-electricity-prices"
+              target="_blank"
+              variant="outlined"
+              color="secondary"
+              startIcon={<GitHub />}
+            >
+              Github
+            </Button>
+          </Toolbar>
         </Container>
       </AppBar>
     </Box>

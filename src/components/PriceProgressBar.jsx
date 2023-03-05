@@ -50,7 +50,7 @@ export default function PriceProgressBar({ clock, price }) {
         sm={1.3}
         md={1}
         lg={1}
-        sx={{ display: "flex", justifyContent: "center" }}
+        sx={{ display: "flex", justifyContent: "end" }}
       >
         <Typography>{roundedPrice} kr</Typography>
       </Grid>
